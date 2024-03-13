@@ -9,7 +9,7 @@ public class Operaciones{
 
         num1 = Double.parseDouble(JOptionPane.showInputDialog("Ingrese el primer número"));
         num2 = Double.parseDouble(JOptionPane.showInputDialog("Ingrese el segundo número"));
-        operacion = JOptionPane.showInputDialog("ingrese la operacion a realizar: ");
+        operacion = JOptionPane.showInputDialog("ingrese la operacion a realizar: \n 1. Suma \n 2. Resta \n 3. Multiplicacion \n 4. Division");
 
         switch (operacion){
             case"1":   //suma
